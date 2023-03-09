@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Book</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/57ad28d00e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navleft">
+            <img src="./image/logo1.png" class="logo">
+            <ul>
+                <li><img src="./image/notification.png"></li>
+                <li><img src="./image/inbox.png"></li>
+                <li><img src="./image/video.png"></li>
+            </ul>
+        </div>
+        <div class="navright">
+            <div class="searchbox">
+                <img src="./image/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="navusericon online" onclick="settingsMenuToggle()">
+                <img src="./image/profile-pic.png">
+            </div>
+        </div>
+
+        <!------settings menu--------->
+        <div class="settingsmenu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="seetingmenuinner">
+                <div class="userprofile">
+                    <img src="./image/profile-pic.png">
+                    <div>
+                        <p>John Nicho</p>
+                        <a href="#">See Your Profile</a>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="userprofile">
+                    <img src="./image/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="settinglinks">
+                    <img src="./image/setting.png" class="settingicon">
+                    <a href="#">Seetings & Privacy <img src="./image/arrow.png" width="10px"></a>
+                </div>
+                <div class="settinglinks">
+                    <img src="./image/help.png" class="settingicon">
+                    <a href="#">Help & Support<img src="./image/arrow.png" width="10px"></a>
+                </div>
+                <div class="settinglinks">
+                    <img src="./image/display.png" class="settingicon">
+                    <a href="#">Display & Accessibility <img src="./image/arrow.png" width="10px"></a>
+                </div>
+                <div class="settinglinks">
+                    <img src="./image/logout.png" class="settingicon">
+                    <a href="#">Logout <img src="./image/arrow.png" width="10px"></a>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </nav>
+    <div class="container">
+        <!-----------leftsidebar--------->
+        <div class="leftsidebar">
+            <div class="implinks">
+                <a href="#"><img src="./image/news.png">Latest News</a>
+                <a href="#"><img src="./image/friends.png">Friends</a>
+                <a href="#"><img src="./image/group.png">Group</a>
+                <a href="#"><img src="./image/marketplace.png">Marketplace</a>
+                <a href="#"><img src="./image/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcutlinks">
+                <p>Your Shorts</p>
+                <a href="#"><img src="./image/shortcut-1.png">Web Devoloper</a>
+                <a href="#"><img src="./image/shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="./image/shortcut-3.png">Full Stack Devoloper</a>
+                <a href="#"><img src="./image/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+        <!-----------maincontent--------->
+        <div class="maincontent">
+            <div class="storygallery">
+                <div class="story story1">
+                    <img src="./image/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./image/member-1.png">
+                    <p>Jackpot</p>
+                </div>
+                <div class="story story3">
+                    <img src="./image/member-2.png">
+                    <p>Harry</p>
+                </div>
+                <div class="story story4">
+                    <img src="./image/member-3.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story5">
+                    <img src="./image/member-4.png">
+                    <p>Potter</p>
+                </div>
+            </div>
+
+            <div class="writepost">
+                <div class="userprofile">
+                    <img src="./image/profile-pic.png">
+                    <div>
+                        <p>John Nicho</p>
+                        <small>Public <i class="fas fa-caret-down"></i>
+</small>
+                    </div>
+                </div>
+                <div class="postinputcontainer">
+                    <textarea rows="3" placeholder="whats on your mind, harry"></textarea>
+                    <div class="addpostlink">
+                        <a href="#"><img src="./image/live-video.png">Live Video</a>
+                        <a href="#"><img src="./image/photo.png">Photo Video</a>
+                        <a href="#"><img src="./image/feeling.png">Feeling Activity</a>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="./image/profile-pic.png">
+                        <div>
+                            <p>John Nicho</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="posttext">Subscribe <span>@coco mici</span> You Tube Channel to wacth more videos on website development and ui designs.<a href="#">#cocco mici</a><a href="#">#You Tube Channel</a></p>
+                <img src="./image/feed-image1.png" class="postimg">
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div><img src="./image/like-blue.png">2000</div>
+                        <div><img src="./image/comments.png">500</div>
+                        <div><img src="./image/share.png">1000</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="./image/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="./image/profile-pic.png">
+                        <div>
+                            <p>John Nicho</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="posttext">Like and Share this video with friends, tag
+                    <span>@coco mici</span>facebook page on your post.Ask your doubts in the comments<a href="#">#cocco mici</a><a href="#">#You Tube Channel</a></p>
+                <img src="./image/feed-image2.png" class="postimg">
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div><img src="./image/like.png">2000</div>
+                        <div><img src="./image/comments.png">500</div>
+                        <div><img src="./image/share.png">1000</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="./image/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="./image/profile-pic.png">
+                        <div>
+                            <p>John Nicho</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="posttext">Like and Share this video with friends, tag
+                    <span>@coco mici</span>facebook page on your post.Ask your doubts in the comments<a href="#">#cocco mici</a><a href="#">#You Tube Channel</a></p>
+                <img src="./image/feed-image3.png" class="postimg">
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div><img src="./image/like.png">2000</div>
+                        <div><img src="./image/comments.png">500</div>
+                        <div><img src="./image/share.png">1000</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="./image/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="./image/profile-pic.png">
+                        <div>
+                            <p>John Nicho</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="posttext">Like and Share this video with friends, tag
+                    <span>@coco mici</span>facebook page on your post.Ask your doubts in the comments<a href="#">#cocco mici</a><a href="#">#You Tube Channel</a></p>
+                <img src="./image/feed-image4.png" class="postimg">
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div><img src="./image/like.png">2000</div>
+                        <div><img src="./image/comments.png">500</div>
+                        <div><img src="./image/share.png">1000</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="./image/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="postcontainer">
+                <div class="postrow">
+                    <div class="userprofile">
+                        <img src="./image/profile-pic.png">
+                        <div>
+                            <p>John Nicho</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="posttext">Like and Share this video with friends, tag
+                    <span>@coco mici</span>facebook page on your post.Ask your doubts in the comments<a href="#">#cocco mici</a><a href="#">#You Tube Channel</a></p>
+                <img src="./image/feed-image5.png" class="postimg">
+                <div class="postrow">
+                    <div class="activityicons">
+                        <div><img src="./image/like.png">2000</div>
+                        <div><img src="./image/comments.png">500</div>
+                        <div><img src="./image/share.png">1000</div>
+                    </div>
+                    <div class="postprofileicon">
+                        <img src="./image/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <button type="button" class="loadmorebutton">Load More</button>
+
+
+
+
+
+
+
+
+
+        </div>
+        <!-----------rightsidebar--------->
+        <div class="rightsidebar">
+            <div class="sidebartitle">
+                <h4>
+                    <em>Events</em>
+                </h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="leftevent">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="rightevent">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+
+            </div>
+            <div class="event">
+                <div class="leftevent">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="rightevent">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+
+            </div>
+            <div class="sidebartitle">
+                <h4>
+                    <em>Advertisement</em>
+                </h4>
+                <a href="#">Close</a>
+            </div>
+
+            <img src="./image/advertisement.png" class="sidebarads">
+            <div class="sidebartitle">
+                <h4>
+                    <em>Conversation</em>
+                </h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="./image/member-1.png">
+                </div>
+                <p>Aliawin Watson</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="./image/member-2.png">
+                </div>
+                <p>Harry Jackpot</p>
+            </div>
+            <div class="onlinelist">
+                <div class="online">
+                    <img src="./image/member-3.png">
+                </div>
+                <p>Samona Rose</p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021-Coco Mici You Tube Channel</p>
+    </div>
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
